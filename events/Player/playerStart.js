@@ -7,27 +7,27 @@ module.exports = (queue, track) => {
     .setColor('#2f3136')
 
     const back = new ButtonBuilder()
-    .setLabel('Back')
+    .setLabel('⬅️ Back')
     .setCustomId(JSON.stringify({ffb: 'back'}))
     .setStyle('Primary')
 
     const skip = new ButtonBuilder()
-    .setLabel('Skip')
+    .setLabel('⏭️ Skip')
     .setCustomId(JSON.stringify({ffb: 'skip'}))
     .setStyle('Primary')
 
     const resumepause = new ButtonBuilder()
-    .setLabel('Resume & Pause')
+    .setLabel('⏯️ Resume & Pause')
     .setCustomId(JSON.stringify({ffb: 'resume&pause'}))
     .setStyle('Danger')
 
     const loop = new ButtonBuilder()
-    .setLabel('Loop')
+    .setLabel('🔁 Loop')
     .setCustomId(JSON.stringify({ffb: 'loop'}))
     .setStyle('Secondary')
     
     const lyrics = new ButtonBuilder()
-    .setLabel('lyrics')
+    .setLabel('ℹ️ Lyrics')
     .setCustomId(JSON.stringify({ffb: 'lyrics'}))
     .setStyle('Secondary')
 
