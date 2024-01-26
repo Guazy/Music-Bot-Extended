@@ -32,27 +32,27 @@ const queue = useQueue(inter.guild);
         .setTimestamp()
 
         const saveButton = new ButtonBuilder()
-        .setLabel('Save this track')
+        .setLabel('☁️ Save this track')
         .setCustomId(JSON.stringify({ffb: 'savetrack'}))
         .setStyle('Danger')
 
         const volumeup = new ButtonBuilder()
-        .setLabel('Volume up')
+        .setLabel('🔊 Volume Up')
         .setCustomId(JSON.stringify({ffb: 'volumeup'}))
         .setStyle('Primary')
 
         const volumedown = new ButtonBuilder()
-        .setLabel('Volume Down')
+        .setLabel('🔉 Volume Down')
         .setCustomId(JSON.stringify({ffb: 'volumedown'}))
         .setStyle('Primary')
 
         const loop = new ButtonBuilder()
-        .setLabel('Loop')
+        .setLabel('🔁 Loop')
         .setCustomId(JSON.stringify({ffb: 'loop'}))
         .setStyle('Danger')
 
         const resumepause = new ButtonBuilder()
-         .setLabel('Resume & Pause')
+         .setLabel('⏯️ Resume & Pause')
          .setCustomId(JSON.stringify({ffb: 'resume&pause'}))
          .setStyle('Success')
 
